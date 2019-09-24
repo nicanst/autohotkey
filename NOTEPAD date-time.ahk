@@ -16,3 +16,11 @@ Return
 	;ClipBoard = %Clip0%
 	Send % time . " "
 Return
+^q::
+	;Clip0 = %ClipBoardAll%
+	;FormatTime, time, A_now, yyyy-MM-dd HH-mm-ss
+	;ClipBoard = % time . " "
+	Send !ow
+	;ClipBoard = %Clip0%
+	;Send % time . " "
+Return
