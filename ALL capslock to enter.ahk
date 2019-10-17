@@ -1,3 +1,0 @@
-﻿Capslock::
-	Send {enter}
-return

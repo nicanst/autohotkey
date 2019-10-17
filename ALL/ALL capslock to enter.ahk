@@ -1,0 +1,3 @@
+﻿Capslock::
+	Send {enter}
+return
